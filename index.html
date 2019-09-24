@@ -1,0 +1,355 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Azure Cosmos DB Workshops</title>
+  </head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+ 
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.tab { margin-left: 400px; }
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-color: #01a4ef;
+  min-height: 20%;
+}
+.divider {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 20px;
+}
+.workshops {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.schedule {
+  background-color: white;
+  color: black;
+  margin: 0px;
+  padding: 20px;
+}
+
+.slides {
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 20px;
+}
+
+.labs {
+  background-color: white;
+  color: black;
+  margin: 0px;
+  padding: 20px;
+}
+
+.contact {
+  background-color: rgb(0, 47, 175);
+  color: white;
+  margin: 0px;
+  padding: 20px;
+}
+
+
+.menu {
+  display: none;
+}
+</style>
+  
+  <body>
+    
+ <!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#upcomingworkshops" class="w3-button w3-block w3-black">UPCOMING WORKSHOPS</a>
+    </div>
+    <div class="w3-col s3">
+        <a href="#schedule" class="w3-button w3-block w3-black">WORKSHOP SCHEDULE</a>
+      </div>
+    <div class="w3-col s3">
+      <a href="#slides" class="w3-button w3-block w3-black">SLIDES</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#labs" class="w3-button w3-block w3-black">HANDS-ON LABS</a>
+    </div>
+  </div>
+</div>
+    
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:64px"><br>Azure Cosmos DB Workshops</span>
+  </div>
+</header>
+    
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-black w3-large">
+
+
+<!-- Upcoming Workshops -->
+  <center>
+<div class = "workshops" id="upcomingworkshops">
+    <br>
+    <img src="./images/Paris.bmp" height = 200px width = 350px alt="Houston"><figcaption>Paris, France - October 14th-15th</figcaption>       
+    <img src="./images/Sydney.bmp" height = 200px width = 350px alt="Sydney" ><figcaption>Sydney, Australia - October 21st</figcaption>
+    <br>
+</div>
+<div class = "workshops"  >
+    <br>
+    <img src="./images/London.bmp" height = 200px width = 350px alt="London" ><figcaption>London, UK - October 16th</figcaption>    
+    <img src="./images/Melbourne.bmp" height = 200px width = 350px alt="Melbourne" ><figcaption>Melbourne, Australia - October 23rd</figcaption>
+    <br>
+</div>
+<div class = "workshops" id="upcomingworkshops" >
+    <br>
+    <img src="./images/Amsterdam.bmp" height = 200px width = 350px alt="Amsterdam"><figcaption>Amsterdam, Netherlands - October 17th</figcaption>       
+    <img src="./images/Shanghai.bmp" height = 200px width = 350px alt="Dallas" ><figcaption>Shanghai, China - November 11th-12th</figcaption>
+    <br>
+</div>
+<div class = "workshops"  >
+    
+    <br>
+    <img src="./images/Cologne.bmp" height = 200px width = 350px alt="Colgone"><figcaption>Cologne, Germany - October 17th</figcaption>       
+    <img src="./images/Shenzhen.bmp" height = 200px width = 350px alt="Shenzhen" ><figcaption>Shenzhen, China- November 14th</figcaption>
+    <br>
+</div>
+<div class = "workshops" id="upcomingworkshops" >
+    <br>
+    <img src="./images/Munich.bmp" height = 200px width = 350px alt="Munich"><figcaption>Munich, Germany - October 18th</figcaption>   
+    <img src="./images/HongKong.bmp" height = 200px width = 350px alt="HongKong" ><figcaption>Hong Kong - November 15th</figcaption>
+    <br>
+</div>
+
+    <!-- Workshop Schedule -->
+    <div class = "schedule" id="schedule">
+    <p><br><center><strong><h1>Typical Workshop Schedules</strong></h1></center></p>
+    <br>
+    <center>
+    <TABLE  BORDER="5">
+        <TR>
+           <TH COLSPAN="2">
+              <H3><BR><b>Azure Cosmos DB Deep-Dive</b></H3>
+                <i>An overview of Azure Cosmos DB and best practices</i>
+           </TH>
+        </TR>
+        <TR>
+           <TH>Topic</TH>
+           <TH>Duration</TH>
+        </TR>
+        
+        <TR>
+            <TH>Overview & Common Use Cases</TH>
+            <TH>30 min</TH>
+        </TR>
+        <TR>
+            <TH>Resource Model</TH>
+            <TH>15 min</TH>
+        </TR>
+        <TR>
+            <TH>Request Units & Billing</TH>
+            <TH>45 min</TH>
+        </TR>
+        <TR>
+            <TH>Data Modeling</TH>
+            <TH>45 min</TH>
+        </TR>
+        <TR>
+            <TH>Partitioning</TH>
+            <TH>30 min</TH>
+        </TR>
+        <TR>
+            <TH>Break</TH>
+            <TH></TH>
+        </TR>
+        <TR>
+            <TH>Lab 1 - Creating a container in Azure Cosmos DB</TH>
+            <TH>30 min</TH>
+        </TR>
+        <TR>
+            <TH>Lab 2 - Importing Data into Azure Cosmos DB with Azure Data Factory </TH>
+            <TH>30 min</TH>
+          </TR>
+           <TR>
+                <TH>SQL API Query</TH>
+                <TH>15 min</TH>
+           </TR>
+       <TR>
+          <TH>Lab 5 - Building a .NET Console App on Azure Cosmos DB</TH>
+          <TH>30 min</TH>
+     </TR>
+     <TR>
+        <TH>Change Feed</TH>
+        <TH>45 min</TH>
+   </TR>
+   <TR>
+      <TH>Lab 8 - Intro to Azure Cosmos DB Change Feed</TH>
+      <TH>60 min</TH>
+ </TR>
+ <TR>
+    <TH>Troubleshooting</TH>
+    <TH>45 min</TH>
+</TR>
+<TR>
+  <TH>Lab 9 - Troubleshooting Performance in Azure Cosmos DB</TH>
+  <TH>60 min</TH>
+</TR>
+    </TABLE>
+    <br>
+<br>
+<br>
+    <TABLE  BORDER="5">
+        <TR>
+           <TH COLSPAN="2">
+              <H3><br><b>Azure Cosmos DB Scenario Workshops (IoT or Retail)</b></H3>
+              <i>Deliver end-to-end, event-driven solution using Azure Functions, Azure IoT Hub, and Stream Analytics with visualizations in Azure Web Apps and Power BI</i>
+           </TH>
+        </TR>
+        <TR>
+           <TH>Topic</TH>
+           <TH>Duration</TH>
+        </TR>
+        
+        <TR>
+            <TH>Introduction and Solution Overview</TH>
+            <TH>60 min</TH>
+        </TR>
+        <TR>
+            <TH>Hands-On Scenario-Based Labs</TH>
+            <TH>approx. 5-6 hours</TH>
+        </TR>
+        <TR>
+            <TH>1:1 whiteboard design session with Azure technical experts to discuss and review your real-time apps</TH>
+            <TH>60 min 1:1 sessions throughout the day</TH>
+        </TR>
+        <TR>
+            <TH>Key Takeaways and Recap</TH>
+            <TH>60 min</TH>
+        </TR>
+    </TABLE>
+  </div>
+  </center>
+<!-- Workshop Slides -->
+<div class = "slides"  id="slides">
+    <p><br><center><strong><h1>Slides</strong></h1></center></p>
+    <br>
+    <center>
+    <p><span class="w3-display-container"><h3>The Azure Cosmos DB Engineering team will use below slides when delivering a 1 day deep-dive workshop </h3> </span></p>
+    <br>
+    <dl>
+        <p class="tab"><dt><strong><a href="https://github.com/CosmosDB/labs/tree/master/decks/Overview-Value-Proposition-Use-Cases.pptx">Overview</a></strong></dt></p>
+        <dd>High-level slides covering product overview and common use case patterns</dd>  
+        <br>
+        <br>
+        <p class="tab"><dt><strong><a href="https://github.com/CosmosDB/labs/tree/master/decks/Resource-Model.pptx">Resource Model</a></strong></dt></p>
+        <dd>Overview of Azure Cosmos DB accounts, databases, and containers</dd>
+        <br>
+        <br>
+        <p class="tab"><dt><strong><a href="https://github.com/CosmosDB/labs/tree/master/decks/Request-Units-Billing.pptx">Request Units & Billing</a></strong></dt></p>
+        <dd>Azure Cosmos DB pricing model, request units (RU's), and best practices for estimating total cost of ownership</dd>
+        <br>
+        <br>
+        <p class="tab"><dt><strong><a href="https://github.com/CosmosDB/labs/tree/master/decks/Data-Modeling.pptx">Data Modeling</a></strong></dt></p>
+        <dd>Best practices for modeling data in Azure Cosmos DB. Indexing slides are included here.</dd>
+        <br>
+        <br>        <p class="tab"><dt><strong><a href="https://github.com/CosmosDB/labs/tree/master/decks/Partitioning.pptx">Partitioning</a></strong></dt></p>
+        <dd>Best practices for partitioning data including examples</dd>
+        <br>
+        <br>
+        <p class="tab"><dt><strong><a href="https://github.com/CosmosDB/labs/tree/master/decks/SQL-API-Query.pptx">SQL API Query</a></strong></dt></p>
+        <dd>An introduction to the query features available in the Core (SQL) API</dd>
+        <br>
+        <br>
+        <p class="tab"><dt><strong><a href="https://github.com/CosmosDB/labs/tree/master/decks/Change-Feed.pptx">Change Feed</a></strong></dt></p>
+        <dd>Common change feed design patterns and best practices for implementation</dd>
+        <br>
+        <br>
+    </dl>
+    <br>
+    <p><span class="w3-display-container">For additional slides, please view our <a href="#https://github.com/CosmosDB/labs/">workshop content repository</a>.</span></p>
+  </center>
+  </div>
+<!-- Hands-On Labs -->
+<div class = "labs" id="labs">
+    <p><br><center><strong><h1>Hands-On Labs</strong></h1></center></p>
+    <br>
+    <center>
+    <p><span class="w3-display-container"><h3>These labs are an excellent supplement to the above workshop slides. They can either be instructor-led or self-paced.</h3></span></p><br>
+  
+        <dl>
+            <p class="tab"><dt><strong><a href="https://www.microsoft.com/handsonlabs/selfpacedlabs">Azure Cosmos DB deep-dive labs</a></strong></dt></p>
+            <dd>To search for Azure Cosmos DB labs, open the <strong>Product</strong> section and select <strong>Azure Cosmos DB</strong>. <br>
+            These labs are available free or charge. You will use pre-provisioned resources to complete the labs. 
+          <br> All lab deep-dive lab content is also available in our <a href="https://cosmosdb.github.io/labs/"> workshop content repository</a></dd>  
+            <br>
+            <br>
+            <p class="tab"><dt><strong><a href="https://github.com/Microsoft/MCW-Cosmos-DB-Real-Time-Advanced-Analytics">Microsoft Cloud Workshop - Azure Cosmos DB real-time advanced analytics</a></strong></dt></p>
+            <dd>This lab highlights the role of Azure services, including Azure Cosmos DB, in a building a real-time fraud detection system.</dd>  
+            <br>
+            <br>
+        </dl>
+    </center>
+  </div>
+    <!-- Request a Workshop -->
+    <div class = "contact">
+    <p><br><center><strong><h1 id="contact">Contact Us</strong></h1></center></p>
+    <br>
+    <center>
+    <img src="./images/cosmos-logo.png" alt="Azure Cosmos DB Logo">
+    <br>
+    <br>
+        <p><strong>Interested in learning more? <br> Want to request a workshop in your city?</strong><br> Please fill out the form below and we will contact you right away</p>
+        <form action="https://getsimpleform.com/messages?form_api_token=5421f0e72012ca59c59e43cded3972e0" method="post">
+
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+    
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Your email" required name="Email"></p>
+    
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Type of Workshop Requested and Expected Audience" required name="Type of Workshop"></p>
+    
+          <p><button class="w3-button w3-black" type="submit">SUBMIT</button></p>
+    
+        </form>
+    </center>
+    </div>
+  
+
+<!-- End page content -->
+</div>
+   
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+  
+  </body>
+</html>
